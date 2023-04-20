@@ -43,7 +43,7 @@ def do_deploy(archive_path):
 
 
 def deploy():
-    """Create and distributes an archive to web servers"""
+    """This Creates then  distributes an arschive to web servers"""
     try:
         path = do_pack()
         return do_deploy(path)
